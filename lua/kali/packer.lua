@@ -31,16 +31,17 @@ return require('packer').startup(function(use)
   use({'hrsh7th/cmp-nvim-lsp'})
 
   use {
-      'williamboman/mason.nvim',
-      config = function()
-          require('mason').setup {
-              registries = {
-                  "github:mason-org/mason-registry",
-                  "github:Crashdummyy/mason-registry",
-              },
-          }
-      end
-  }
+  'williamboman/mason.nvim',
+  config = function()
+    require('mason').setup {
+      registries = {
+        "github:mason-org/mason-registry",
+        "github:Crashdummyy/mason-registry",
+      },
+    }
+  end
+}
+
 
   use "williamboman/mason-lspconfig.nvim"
 
@@ -51,5 +52,9 @@ return require('packer').startup(function(use)
       end
   }
 
+  use {
+      'L3MON4D3/LuaSnip',
+      requires = { 'rafamadriz/friendly-snippets' }
+  }
 
 end)
