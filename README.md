@@ -2,7 +2,7 @@ First you need to install g++, python, node for plugins to work
 
 Ubuntu:
 ```sh
-sudo apt update && sudo apt upgrade -y && sudo apt install -y g++ nodejs npm python3 python3-pip git
+sudo apt update && sudo apt upgrade -y && sudo apt install -y g++ nodejs npm python3 python3-pip git neovim
 ```
 
 Arch:
