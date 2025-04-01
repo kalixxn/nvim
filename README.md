@@ -2,12 +2,12 @@ First you need to install g++, python, node for plugins to work
 
 Ubuntu:
 ```sh
-sudo apt update && sudo apt upgrade -y && sudo apt install -y g++ nodejs npm python3 python3-pip git neovim
+sudo apt update && sudo apt upgrade -y && sudo apt install -y g++ nodejs npm python3 python3-pip git neovim unzip
 ```
 
 Arch:
 ```sh
-sudo pacman -Syu --noconfirm && sudo pacman -S --noconfirm gcc nodejs npm python-pip git
+sudo pacman -Syu --noconfirm && sudo pacman -S --noconfirm gcc nodejs npm python-pip git unzip
 ```
 
 then install packer
