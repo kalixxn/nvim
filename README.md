@@ -7,7 +7,7 @@ sudo apt update && sudo apt upgrade -y && sudo apt install -y g++ nodejs npm pyt
 
 Arch:
 ```sh
-sudo pacman -Syu --noconfirm && sudo pacman -S --noconfirm gcc nodejs npm python-pip git unzip
+sudo pacman -Syu --noconfirm && sudo pacman -S --noconfirm gcc nodejs npm python-pip git unzip neovim
 ```
 
 then install packer
